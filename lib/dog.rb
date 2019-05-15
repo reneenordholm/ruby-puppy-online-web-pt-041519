@@ -20,4 +20,4 @@ class Dog
   end
 end
 
-puts @@all
+puts self.all

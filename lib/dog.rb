@@ -16,6 +16,6 @@ class Dog
   end
   
   def self.all
-    @@all(name)
+    @@all.map do { |name| puts name }
   end
 end

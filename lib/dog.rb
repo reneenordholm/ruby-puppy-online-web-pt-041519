@@ -16,6 +16,6 @@ class Dog
   end
   
   def self.all
-    @@all.map { |name| puts "#{:name}"}
+    @@all.each { |name| puts "#{:name}"}
   end
 end
